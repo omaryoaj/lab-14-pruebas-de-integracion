@@ -2,6 +2,9 @@ package pe.edu.tecsup_cinema;
 
 public class Main {
 
+    private Main() {
+    }
+
     public static void main(String[] args) {
         UserRegistrationService service = new UserRegistrationService();
 
