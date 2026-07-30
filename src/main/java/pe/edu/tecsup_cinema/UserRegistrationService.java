@@ -30,6 +30,7 @@ public class UserRegistrationService {
         System.out.println("Constructor llamado");
     }
 
+
     /**
      * Registra un nuevo usuario en la plataforma.
      *
@@ -110,4 +111,5 @@ public class UserRegistrationService {
     public String getLastErrorMessage() {
         return this.lastErrorMessage;
     }
+
 }
