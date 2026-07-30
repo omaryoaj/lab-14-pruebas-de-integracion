@@ -1,7 +1,18 @@
 package pe.edu.tecsup_cinema;
 
 public class Main {
+
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        UserRegistrationService service = new UserRegistrationService();
+
+        // Casos de prueba simples
+        service.registerUser("juan", "123", "juan@correo"); // Contraseña muy corta
+        System.out.println(service.lastErrorMessage);
+
+        service.registerUser(null, "12345678", "correo-sin-arroba"); // username null
+        System.out.println(service.lastErrorMessage);
+
+        service.registerUser("error", "12345678", "error@correo.com"); // fuerza excepción
+        System.out.println(service.lastErrorMessage);
     }
 }
