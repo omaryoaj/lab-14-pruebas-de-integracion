@@ -1,33 +1,25 @@
 package pe.edu.tecsup_cinema;
+
 /**
  * Clase principal del sistema Tecsup Cinema.
  */
 public final class Main {
 
     /**
-     * Constructor privado para evitar la instanciación de la clase de utilidad.
+     * Constructor privado de la clase de utilidad.
      */
     private Main() {
-        // Constructor vacío
+        // Constructor vacio
     }
 
     /**
-     * Método principal de entrada a la aplicación.
+     * Metodo principal de entrada a la aplicacion.
      *
-     * @param args Argumentos de la línea de comandos.
+     * @param args Argumentos de la linea de comandos.
      */
-
     public static void main(final String[] args) {
-        UserRegistrationService service = new UserRegistrationService();
-
-        // Casos de prueba simples
-        service.registerUser("juan", "123", "juan@correo"); // Contraseña muy corta
-        System.out.println(service.getLastErrorMessage());
-
-        service.registerUser(null, "12345678", "correo-sin-arroba"); // username null
-        System.out.println(service.getLastErrorMessage());
-
-        service.registerUser("error", "12345678", "error@correo.com"); // fuerza excepción
-        System.out.println(service.getLastErrorMessage());
+        System.out.println("Tecsup Cinema");
+        System.out.println("Iniciando...");
+        System.out.println("Pruebas...");
     }
 }
