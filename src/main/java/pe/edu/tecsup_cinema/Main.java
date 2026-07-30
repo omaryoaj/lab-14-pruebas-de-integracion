@@ -1,25 +1,24 @@
 package pe.edu.tecsup_cinema;
 
 /**
- * Clase principal del sistema Tecsup Cinema.
+ * Clase principal del sistema.
  */
 public final class Main {
 
     /**
-     * Constructor privado de la clase de utilidad.
+     * Constructor privado.
      */
     private Main() {
-        // Constructor vacio
     }
 
     /**
-     * Metodo principal de entrada a la aplicacion.
+     * Metodo principal.
      *
-     * @param args Argumentos de la linea de comandos.
+     * @param args Argumentos de linea de comandos.
      */
     public static void main(final String[] args) {
-        System.out.println("Tecsup Cinema");
-        System.out.println("Iniciando...");
-        System.out.println("Pruebas...");
+        System.out.println("Inicio.");
+        System.out.println("Pruebas.");
+        System.out.println("Fin.");
     }
 }

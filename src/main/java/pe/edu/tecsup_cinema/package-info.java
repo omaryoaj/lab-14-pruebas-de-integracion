@@ -1,4 +1,4 @@
 /**
- * Paquete principal para las clases del modulo Tecsup Cinema.
+ * Paquete principal del modulo cinema.
  */
 package pe.edu.tecsup_cinema;
