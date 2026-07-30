@@ -1,9 +1,21 @@
 package pe.edu.tecsup_cinema;
+/**
+ * Clase principal del sistema Tecsup Cinema.
+ */
+public final class Main {
 
-public class Main {
-
+    /**
+     * Constructor privado para evitar la instanciación de la clase de utilidad.
+     */
     private Main() {
+        // Constructor vacío
     }
+
+    /**
+     * Método principal de entrada a la aplicación.
+     *
+     * @param args Argumentos de la línea de comandos.
+     */
 
     public static void main(final String[] args) {
         UserRegistrationService service = new UserRegistrationService();
